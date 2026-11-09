@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "del2delete",
+	"version": "${version}",
+	"name": "Del2Delete",
+	"description": "A mod that lets you delete worlds and servers with the Del key",
+	"authors": [
+		"SecondMoon",
+		"ArisNight"
+	],
+	"contact": {
+		"sources": "https://github.com/arisnightt/del2delete"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/del2delete/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"sm.arisnight.Del2DeleteClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
